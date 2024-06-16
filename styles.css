@@ -55,6 +55,9 @@ header {
     width: 100%;
     height: auto;
 }
+.product-card{
+    box-shadow: 10px 10px 10px rgb(60, 61, 61);
+}
 
 button {
     background-color: #333;
@@ -78,4 +81,13 @@ button:hover {
 }
 a{
     text-decoration: none;
+}
+.product-details{
+    
+    width: 97%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
